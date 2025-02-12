@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <?php if (!isset($_SESSION['reset_email'])): ?>
                         <form method="POST">
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
+                                <label for="email" class="form-label">Emaills</label>
                                 <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                             <div class="d-grid gap-2">
